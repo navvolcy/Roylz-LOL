@@ -1,23 +1,58 @@
-import logo from './logo.svg';
+
 import './App.css';
+import pic from './images/AS Color.jpg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <body>
+    <h1 id="boss">ROYLZ</h1>
+    <div class="roylz">
+      <div class="Nav">
+       <h1>DieFace22</h1> 
+       <img src= {pic} alt="description if pic" width="300" height="150" class="AS"></img>
+       <ul>
+          <li>Rank: Bronze 3</li>
+          <li>Seasons Played: 1 </li>
+          <li>Roles Played: Jungle/Top</li>
+          <li>Top 3 Favorite Champs: Warwick </li>
+        </ul>
+      </div>
+      
+      <div>
+        <ul>
+          <li>Rank:</li>
+          <li>Seasons Played:</li>
+          <li>Roles Played:</li>
+          <li>Top 3 Favorite Champs:</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Rank:</li>
+          <li>Seasons Played:</li>
+          <li>Roles Played:</li>
+          <li>Top 3 Favorite Champs:</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Rank:</li>
+          <li>Seasons Played:</li>
+          <li>Roles Played:</li>
+          <li>Top 3 Favorite Champs:</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Rank:</li>
+          <li>Seasons Played:</li>
+          <li>Roles Played:</li>
+          <li>Top 3 Favorite Champs:</li>
+        </ul>
+      </div>
+    </div>
+  </body>
     </div>
   );
 }
